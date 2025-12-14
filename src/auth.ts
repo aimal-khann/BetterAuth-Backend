@@ -17,5 +17,8 @@ export const auth = betterAuth({
             hardwareBackground: { type: "string", required: false, input: true },
         },
     },
-    trustedOrigins: ["http://localhost:3000"], 
+    trustedOrigins: [
+        "http://localhost:3000",
+        "https://physical-ai-humanoid-robotics-bookk.vercel.app"
+    ], 
 });
