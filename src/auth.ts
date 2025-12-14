@@ -17,6 +17,13 @@ export const auth = betterAuth({
             hardwareBackground: { type: "string", required: false, input: true },
         },
     },
+    // CRITICAL FIX: Allow cross-domain cookies for Vercel + Railway
+    advanced: {
+        defaultCookieAttributes: {
+            sameSite: "none", 
+            secure: true, 
+        },
+    },
     trustedOrigins: [
         "http://localhost:3000",
         "https://physical-ai-humanoid-robotics-bookk.vercel.app"
