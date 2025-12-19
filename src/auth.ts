@@ -28,5 +28,6 @@ export const auth = betterAuth({
         "http://localhost:3000",
         "https://physical-ai-humanoid-robotics-bookk.vercel.app",
         "https://physical-ai-humanoid-robotics-book-five-kappa.vercel.app"
+              "https://ai-humanoid-robotics-bookk.vercel.app"
     ], 
 });
