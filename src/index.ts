@@ -12,7 +12,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:3000",
-      "https://physical-ai-humanoid-robotics-bookk.vercel.app"
+      "https://physical-ai-humanoid-robotics-bookk.vercel.app",
       "https://physical-ai-humanoid-robotics-book-five-kappa.vercel.app"
     ],
     credentials: true,
